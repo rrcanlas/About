@@ -1,7 +1,8 @@
 {
-  "name": "pollwatch",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rrcanlas.github.io/Portfolio-v3",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.2.1",
@@ -21,6 +22,7 @@
     "uuid": "^3.3.3"
   },
   "scripts": {
+    "deploy" : "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +36,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
