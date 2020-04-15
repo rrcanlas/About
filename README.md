@@ -2,19 +2,13 @@
 	 resume - README.md
 -->
 
-# **[View Resume](https://rrcanlas.github.io/Portfolio-v3/)** #
+# **[View Resume](https://https://rrcanlas.github.io/Portfolio-v3/)** #
 
 * Overview
 
 	An updated 2020 Portfolio site showcasing web development projects.
 
-	This project was built by Create React App.
-
-	In the project directory, you can run:
-
-	npm start
-	Runs the app in the development mode.
-	Open http://localhost:3000 to view it in the browser.  
+	This project was built by Create React App. 
 
  * Development:
 
@@ -26,9 +20,9 @@
 
  * Acknowledgement:
 
-   	- [Icons](https://react-icons.netlify.com/) 
+   	[Icons](https://react-icons.netlify.com/) 
 
-   	- [Components](https://www.npmjs.com/)
+   	[Components](https://www.npmjs.com/)
 
 Learn More:
 
