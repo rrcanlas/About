@@ -4,8 +4,6 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import uuid       from 'uuid';
-
 import Navigator  from './components/Navigator';
 
 import About      from './routes/About';
@@ -23,11 +21,12 @@ class App extends Component {
         <div>      
           <Navigator />
           <Switch>
-            <Route exact path="/About"    component={About} />
+            <Route path="/" activeClassName="active" component={About} exact={true} />
+            <Route       path="/About"   component={About} />
             <Route       path="/Project"  component={Project} /> 
             <Route       path="/Follow"   component={Follow} />
             <Route       path="/Blog"     component={Blog} />
-            <Route                        component={About} />
+            <Route                        component={Notfound} />
           </Switch>         
           <Footer />  
         </div>
