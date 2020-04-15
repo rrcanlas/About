@@ -2,7 +2,7 @@
 	 resume - README.md
 -->
 
-# **[View Site](https://https://rrcanlas.github.io/Portfolio-v3/About)** #
+# **[View Site](https://https://rrcanlas.github.io/Portfolio-v3/About/)** #
 
 * Overview
 
