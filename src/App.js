@@ -22,7 +22,7 @@ class App extends Component {
           <Navigator />
           <Switch>
             <Route path="/" activeClassName="active" component={About} exact={true} />
-            <Route       path="/About"   component={About} />
+
             <Route       path="/Project"  component={Project} /> 
             <Route       path="/Follow"   component={Follow} />
             <Route       path="/Blog"     component={Blog} />
