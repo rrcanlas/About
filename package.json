@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rrcanlas.github.io/Project",
+  "homepage": "https://rrcanlas.github.io/About",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.2.1",
